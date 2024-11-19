@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to bottom, #525252, #000000 80%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    background: linear-gradient(#131313 50%, #1c1c1c 100%);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 550px;
+    max-width: 100%;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.container .spotify-icon {
+    color: #fff;
+    font-size: 30px;    
+}
+
+.container .social-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container .social-buttons button {
+    text-decoration: none;
+    color: #4e4d4d;
+    background: transparent;
+    outline: none;
+    border-radius: 40px;
+    padding: 2% 15px;
+    width: 45%;
+    margin: 3px;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.container form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .social-buttons i {
+    font-size: 16px;
+}
+
+.container .social-buttons span{
+    color: #fff;
+    font-weight: 600;
+    flex-grow: 1;
+    font-size: 12px;
+    text-align: center;
+}
+
+.container .social-buttons i{
+    color: #fff;
+    text-align: left;
+}
+
+
+.bar {
+    display: block;
+    width: 75%;
+    height: 1px;
+    background-color: #4e4d4d;
+    margin: 20px 0;
+}
+
+.form-block{
+    width: 100%;
+}
+
+.form-block h5 {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 10px; 
+    text-align: left;
+    margin-left: 57%;
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+.form-block input{
+    background: transparent;
+    color: #4e4d4d;
+    border-radius: 4px;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    padding: 2% 15px;
+    text-align: left;
+    width: 45%;
+    text-decoration: none;
+    outline: none;
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 11px;
+    font-weight: 700;
+    transition: border-color 0.3s ease;
+}
+
+.form-block input::placeholder{
+    color: #4e4d4d   
+}
+
+.form-block button{
+    background-color: #1ed760;
+    border-radius: 40px;
+    padding: 2% 34px;
+    width: 45%;
+    margin: 3px;
+    border-width: 0;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5%;
+    border-style: solid;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.form-block .remember {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.form-block .more-info .ref {
+    color: #fff;
+    font-size: 15px;
+}
+
+.form-block .more-info a{
+    color: #adadad;
+}
+
+.form-block .more-info{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-block button:hover{
+    background-color: #3be477;
+    transform: scale(1.04);
+}
+
+.form-block button:active{
+    background-color: #1abc54;
+    transform: scale(1.15);
+}
+
+form input:focus{
+    border-color: #fff;
+    border-width: 2px;
+}
+
+.container .social-buttons button:hover{
+    color: #fff;
+}
